@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <!-- heading with unique ID -->
+
+    <h1 id="title">Welcome! to my web page </h1>
+  
+    <!-- button to trigger javascript -->
+
+    <button onclick="changeText()">Click Me</button>
+    
+    <!-- function that run when button is clicked  -->
+
+    <script>
+
+        function changeText(){
+
+            let heading = document.getElementById("title");
+
+            heading.innerText = "hello students! welcome to javascript ";
+
+            heading.style.color = "red";
+
+            
+        }
+    </script>
+    
+</body>
+</html>
