@@ -121,3 +121,17 @@ let squarearr = arrnew.map(function(element){
     return element*element;
 });
 console.log(squarearr);
+
+// filter() ek array method hai jo kisi array ke elements ko condition ke basis par select (filter) karta hai.
+
+// 👉 Ye ek naya array return karta hai, original array change nahi hota.
+
+
+let evenarr = arrnew.filter(function(element){
+    return element % 2 ===0;
+});
+console.log(evenarr);
+
+
+// reduce() reduce() is an array method that processes all elements of an array and converts them into a single value.
+
