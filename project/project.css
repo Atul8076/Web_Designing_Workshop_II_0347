@@ -217,3 +217,24 @@ footer{
   padding: 20px;
   margin-top: 20px;
 }
+
+.add-cart{
+    background-color: #FFD814;
+    border: 1px solid #FCD200;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+}
+
+.add-cart:hover{
+    background-color: #F7CA00;
+}
+.add-cart{
+    display: block;
+    margin: 10px auto;
+}
